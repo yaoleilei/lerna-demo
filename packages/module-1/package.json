@@ -1,5 +1,5 @@
 {
-  "name": "module-1",
+  "name": "module-1-1-1",
   "version": "0.0.4",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "yaolei12",
   "license": "ISC",
-  "gitHead": "c018cc0226eedcc50cf7633a7da869cf27590011"
+  "gitHead": "2afd8ee204720f4c05d1709eeac030192b8ac40f",
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
 }
