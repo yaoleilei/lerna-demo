@@ -10,7 +10,7 @@ const isDev = process.env.NODE_ENV === 'development'; // 是否是本地开发�
 module.exports = {
   mode: isDev ? 'development' : 'production',
   // devtool: isDev ? 'cheap-module-eval-source-map' : 'cheap-module-source-map', // https://www.webpackjs.com/configuration/devtool/
-  entry: './packages/module-1/index.js',
+  entry: './packages/module-2/index.js',
   output: {
     path: path.resolve(__dirname, OUTPUT_PATH),
     publicPath: isDev ? `http://localhost:${config.PORT}/` : process.env.PUBLIC_URL,
